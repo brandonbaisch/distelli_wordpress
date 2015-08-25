@@ -1,4 +1,4 @@
-bmcgehee/distelli_wordpress:
+brandonbaisch/distelli_wordpress:
 
   PkgInclude:
     - '*'
