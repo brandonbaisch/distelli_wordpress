@@ -53,12 +53,6 @@ bbaisch/distelli_wordpress:
     - sudo cp $DISTELLI_INSTALLHOME/wp-config.php /usr/share/nginx/html/wp-config.php
     - sudo chmod 644 /usr/share/nginx/html/wp-config.php
     - sudo chown root:www-data /usr/share/nginx/html/wp-config.php
-    - echo "=====netstat====="
-    - netstat -an | grep LISTEN
-    - echo "----- ping -----"
-    - ping -c 3 www.yahoo.com
-    - echo "~~~~~ifconfig~~~~~"
-    - ifconfig
   Start:
     - sudo service nginx restart
 
